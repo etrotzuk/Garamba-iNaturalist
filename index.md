@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/etrotzuk/Garamba-iNaturalist/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/etrotzuk/Garamba-iNaturalist/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<style type="text/css" media="screen">
+.inat-widget { font-family: Georgia, serif; padding: 10px; line-height: 1;}
+.inat-widget-header {margin-bottom: 10px;}
+.inat-widget td {vertical-align: top; padding-bottom: 10px;}
+.inat-label { color: #888; }
+.inat-meta { font-size: smaller; margin-top: 3px; line-height: 1.2;}
+.inat-observation-body, .inat-user-body { padding-left: 10px; }
+.inat-observation-image {text-align: center;}
+.inat-observation-image, .inat-user-image { width: 48px; display: inline-block; }
+.inat-observation-image img, .inat-user-image img { max-width: 48px; }
+.inat-observation-image img { vertical-align: middle; }
+.inat-widget-small .inat-observation-image { display:block; float: left; margin: 0 3px 3px 0; height:48px;}
+.inat-label, .inat-value, .inat-user { font-family: "Trebuchet MS", Arial, sans-serif; }
+.inat-user-body {vertical-align: middle;}
+.inat-widget td.inat-user-body {vertical-align: middle;}
+.inat-widget .inat-footer td.inat-value {vertical-align: middle; padding-left: 10px;}
+</style>
+<div class="inat-widget">
+    <div class="inat-widget-header">
+      <a href="https://www.inaturalist.org"><img alt="iNaturalist.org" src="https://www.inaturalist.org/assets/logo-small-9571bdf43f2c4dc05eb536a8c06d7c4b.gif" /></a>  
+    </div>
+  <script type="text/javascript" charset="utf-8" src="https://www.inaturalist.org/observations/project/15637.widget?layout=large&limit=5&order=desc&order_by=observed_on"></script>
+  <table class="inat-footer">
+    <tr class="inat-user">
+      <td class="inat-value">
+        <strong>
+            <a href="https://www.inaturalist.org/observations/project/15637">View more observations from Biodiversity of the Garamba complex on <nobr>iNaturalist.org »</nobr></a>
+        </strong>
+      </td>
+    </tr>
+  </table>
+</div>
