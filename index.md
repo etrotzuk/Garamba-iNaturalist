@@ -16,9 +16,6 @@
 .inat-widget .inat-footer td.inat-value {vertical-align: middle; padding-left: 10px;}
 </style>
 <div class="inat-widget">
-    <div class="inat-widget-header">
-      <a href="https://www.inaturalist.org"><img alt="iNaturalist.org" src="https://www.inaturalist.org/assets/logo-small-9571bdf43f2c4dc05eb536a8c06d7c4b.gif" /></a>  
-    </div>
   <script type="text/javascript" charset="utf-8" src="https://www.inaturalist.org/observations/project/15637.widget?layout=large&limit=20&order=desc&order_by=observed_on"></script>
   <table class="inat-footer">
     <tr class="inat-user">
